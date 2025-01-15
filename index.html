@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="flighttripweb.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a href="#"><img src="./imgesofflight/easymytriplogo.png"></a>
+            </div>
+            <div class="headermenu">
+                    <div class="hmenu">
+                        <a href="#">
+                        <h5><i class="fa-solid fa-user-secret"></i>EMTMate</h5></a>
+                        <h6> Agent travel solution</h6>
+                    </div>
+                    <div class="hmenu">
+                        <a href="#">
+                        <h5><i class="fa-solid fa-toolbox"></i>EMTDesk</h5></a>
+                        <h6>Corporate travel </h6>
+                    </div>
+                    <div class="hmenu" id="#f">
+                        <a href="#">
+                        <h5><i class="fa-solid fa-gem"></i>EMTRoyale</h5></a>
+                        <h6>For Prime Members</h6>
+                    </div>
+                    <div class="hmenu">
+                        <a href="#">
+                        <h5><i class="fa-solid fa-map-location-dot"></i>Explore Tour</h5>
+                    </a>
+                        <h6>A Tour to India</h6>
+                    </div>
+                    <div class="hmenu">
+                        <a href="#">
+                        <h5><i class="fa-solid fa-crown"></i>Join EMTPro</h5>
+                    </a>
+                        <h6>Enjoy More Benefits</h6>
+                    </div>
+            </div>
+            <div class="location">
+                <div class="icon">
+                        <a href="#" id="a1"><img src="./imgesofflight/chatbot.png">
+                        <div class="a1menu">
+                            <div class="call1">
+                                <div class="callicon">
+                                        <img src="./imgesofflight/phone.png">
+                                        <h4>8263857261</h4>
+                                </div>   
+                        </div>
+                        <div class="call1">
+                            <div class="callicon">
+                                    <img src="./imgesofflight/email.png">
+                                    <h4>Vaishnavi</h4>
+                            </div>
+                        </div>
+                        </div>
+                    </a>
+                        <a href="#"><i class="fa-solid fa-angle-down"></i></a>
+                        <a href="#" id="location-toggle"><img src="./imgesofflight/india.png">&nbsp;</a>
+                        <h5>BHARAT</h5>
+                        <a href="#"><i class="fa-solid fa-angle-down"></i></a>
+                </div>
+                <div class="login">
+                    <button id="but1"><a href="#">Login Or Sign Up</a></button>
+                    <!-- Hidden menu -->
+                    <div class="lmenu">
+                       <div class="butmenu">
+                        <div class="cust">
+                                <div class="png">
+                                        <img src="./imgesofflight/user.png">
+                                </div>
+
+                                <div class="form">
+                                    <a href="#"><h4>Customer Login</h4></a><!---hav to design the form-->
+                                    <h6>Login and Check Here</h6>
+                                </div>
+                        </div>
+
+                        <div class="cust">
+                            <div class="png">
+                                <img src="./imgesofflight/toolbox.png">
+                        </div>
+
+                        <div class="form">
+                            <a href="#"><h4>Coperate Traval</h4></a><!---hav to design the form-->
+                            <h6>Login and Check Here</h6>
+                        </div>
+                        </div>
+
+                        <div class="cust">
+                            <div class="png">
+                                <img src="./imgesofflight/booking.png">
+                        </div>
+
+                        <div class="form">
+                            <a href="#"><h4>My Booking</h4></a><!---hav to design the form-->
+                            <h6>Login and Check Here</h6>
+                        </div>
+                        </div>                        
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-menu">
+            <div class="sub-menu">
+                <div class="sub">
+                    <img src="./imgesofflight/delay.png">
+                    <h4>Flights</h4>
+                </div>
+                <div class="sub">
+                    <img src="./imgesofflight/hotel.png">
+                    <h4>Hotels</h4>
+                </div>
+                <div class="sub">
+                    <img src="./imgesofflight/airport.png">
+                    <h4>Airport</h4>
+                </div>
+                <div class="sub">
+                    <img src="./imgesofflight/train.png">
+                    <h4>Trains</h4>
+                </div>
+                <div class="sub">
+                    <img src="./imgesofflight/bus.png">
+                    <h4>Bus</h4>
+                </div>
+                <div class="sub">
+                    <img src="./imgesofflight/airport.png">
+                    <h4>Holiday</h4>
+                </div>
+                <div class="sub">
+                    <img src="./imgesofflight/taxi.png">
+                    <h4>Cab</h4>
+                </div>
+                <div class="sub">
+                    <img src="./imgesofflight/hot-air-balloon.png">
+                    <h4>Activity</h4>
+                </div>
+                <div class="sub">
+                    <img src="./imgesofflight/application.png">
+                    <h4>Visa</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider">
+            <div class="oneway">
+                <div class="button">
+                        <a href="#" id="af">OneWay</a>
+                        <a href="#">Round Trip</a>
+                        <a href="#">Multicity</a>
+                </div>
+                <div class="search">
+                    <h2>Search Lowest Price</h2>
+                </div>
+            </div>
+
+            <div class="dest">
+                <div class="mum">
+                    <h4>From</h4>
+                    <h2><a href="#">Delhi</a> <i class="fa-solid fa-arrow-right-arrow-left"></i></h2>
+                    <h6>[DEL] Indira Gandhi International Airport</h6>
+                </div>
+                <div class="mum">
+                    <h4>To</h4>
+                    <h2><a href="#"> Mumbai</a></h2>
+                    <h6>[MUM] Indira Gandhi International Airport</h6>
+                </div>
+
+                <div class="date">
+                        <h5>Departure Date</h5>
+                        <h4><a href="#"> 1 JAN 2025 <i class="fa-solid fa-calendar-days"></i></a></h4>
+                        <h6>Wenusday</h6>
+                </div>
+
+                <div class="date">
+                    <h5>Return Date</h5>
+                    <h4>Book A Round Trip</h4>
+                    <h6>To Save More</h6>
+                </div>
+                <div class="date">
+                        <h5>Travller And Class</h5>
+                        <h4><a href="#">1 Traveller (s)<i class="fa-solid fa-angle-down"></i></a></h4>
+                        <h6>Economy</h6>
+                </div>
+                <div class="search1">
+                        <h2>SEARCH</h2>
+                </div>
+            </div>
+
+            <div class="defence">
+                    <div class="dbox">
+                            <div class="db">
+
+                            </div>
+                            <a href="#" id="afirstd"><h5>Defence Forces</h5></a>
+                            <div class="def">
+                                <h5>Defence Forces</h5>
+                                <p>
+                                    Valid for retired or serving armed/parliamentary forces along with their relatives only. To avail this benefit, passengers must show a valid ID or dependent card before flight departure.</p>
+                            </div>
+
+                    </div>
+
+                    <div class="dbox">
+                        <div class="db">
+                                
+                        </div>
+                        <a href="#" id="afirstd"><h5>Students</h5></a>
+                        <div class="def">
+                            <h5>Students</h5>
+                            <p>
+                                Special fares and extra baggage allowance are available exclusively for students aged 12 and above. To avail the benefit, students must carry valid ID cards and student visas.</p>
+                        </div>
+                    </div>
+
+                    <div class="dbox">
+                        <div class="db">
+                                
+                        </div>
+                        <a href="#" id="afirstd"><h5>Senior Citizen</h5></a>
+                        <div class="def">
+                            <h5>Senior Citizen</h5>
+                            <p>Senior citizens of 60+ years are eligible for this benefit. To avail the offer, it is mandatory to have valid date of birth proof. Without proof, the passenger will be charged with fares.</p>
+                        </div>
+                    </div>
+
+                    <div class="dbox">
+                        <div class="db">
+                                
+                        </div>
+                        <a href="#" id="afirstd"><h5>Doctor Nurse</h5></a>
+                        <div class="def">
+                            <h5>Doctor Nurse</h5>
+                            <p>This benefit is applicable for Medical professionals only. To avail it's crucial to carry valid ID at the airport before flight departure.</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+
+        <div class="offer">
+            <div class="heading">
+                <div class="img1">
+               <img src="./imgesofflight/india.png">
+            </div>
+            <div class="head1">
+                <h1>EXCLUSIVE OFFER'S</h1>
+        </div>
+        <div class="img2">
+            <img src="./imgesofflight/india.png">
+        </div>
+        </div>
+
+        <div class="offermenu">
+            <a href="#" id="o1"> Best Offers</a>
+            <a href="#"> Bank Offers</a>
+            <a href="#">Flight</a>          
+            <a href="#"> Hotel</a>
+            <a href="#">Bus</a>
+            <a href="#">Holidays</a>
+            <a href="#">Cabs</a>
+            <a href="#">Duty Free</a>
+            <a href="#"> HomeStays</a>
+        </div>
+
+        <div class="offersub-menu">
+            <div class="omenu">
+                <img src="./imgesofflight/flighttrip5.jpg">
+                <h5>Register and get Your Discount On A First Your First Booking</h5>
+              
+                <h6>Valid Until 4 jan 2025</h6>
+                    
+            </div>
+            <div class="omenu">
+                <img src="./imgesofflight/flighttrip7.avif">
+                <h5>Enjoy Akash Air Flights With Your Family Starting from 25 jan 2024</h5>
+                <h6>Valid until 25 feb 2025</h6>
+            </div>
+            <div class="omenu">
+                <img src="./imgesofflight/flighttrip2.avif">
+                <h5>Enjoy The Domestic Flights With A rare Cost Starting from 25 feb</h5>
+                <h6>Valid Until 3 march</h6>
+            </div>
+            <div class="omenu">
+                <img src="./imgesofflight/flighttrip5.avif">
+                <h5>get A fantastic travel With Your Freinds
+                    and Family
+                </h5>
+                <h6>Valid until 5 march 2025</h6>
+            </div>
+        </div>
+
+        <button><a href="#"> View all Offer</a></button>
+        </div>
+
+        <div class="refund">
+            <div class="fullref">
+                <div class="dis">
+                <img src="./imgesofflight/full-ref-lft.png">
+                <h5>Get Discount</h5>
+            </div>
+                <div class="para">
+                <h3>Full Refund &nbsp;* Due to Medical Reasons</h3>
+                    <ul>
+                        <li>Presenting you an extraordinary offer in these unfavorable circumstances..</li>
+                        <li>Get a full refund on a domestic ticket in case you cancel it due to medical sickness..</li>
+                        <li>The Best Part - There are ZERO extra charges for this service.</li>
+                    </ul>
+</div>
+<div class="tc">
+    <img src="./imgesofflight/full-ref-rgt.png">
+    <h5>T & C Apply</h5>
+</div>
+            </div>
+            <div class="covidref">
+                <div class="covidfund">
+                    <h4>Claim For</h4>
+                    <a href="#"><h3>Covind <br>Refund</h3></a>
+                    <h4>Here <i class="fa-solid fa-arrow-right-long"></i></h4>
+                </div>
+
+                <div class="fundimg">
+                    <a href="#"> <img src="./imgesofflight/covid-refund.png"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="routs">
+            <div class="rrouts">
+                <div class="img1">
+                        <img src="./imgesofflight/india.png">
+                </div>
+                <div class="heading">
+                        <h1>Top Flight Routes</h1>
+                </div>
+
+                <div class="img2">
+                        <img src="./imgesofflight/india.png">
+                </div>
+            </div>
+
+            <div class="routsway">
+                    <div class="way">
+                        <div class="place">
+                            <img src="./imgesofflight/mumbai-img.png">
+                    </div>
+                    <div class="flight">
+                        <h3>Chennai<i class="fa-solid fa-plane-departure"></i> Mumbai</h3>
+                        <a href="#"><h4>MAA - CHA</h4></a>
+                    </div>
+                    </div>
+                    <div class="way">
+                        <div class="place">
+                            <img src="./imgesofflight/ahmedabad-img.png">
+                    </div>
+                    <div class="flight">
+                        <h3>Delhi<i class="fa-solid fa-plane-departure"></i> Ahmdabad</h3>
+                        <a href="#"><h4>DEL - AMD</h4></a>
+                    </div>
+                    </div>
+                    <div class="way">
+                        <div class="place">
+                                <img src="./imgesofflight/dubai-img (1).png">
+                        </div>
+                        <div class="flight">
+                            <h3>Delhi<i class="fa-solid fa-plane-departure"></i> Lakhnow</h3>
+                            <a href="#"><h4>DEL - LUK</h4></a>
+                        </div>
+                    </div>
+                    <div class="way">
+                        <div class="place">
+                            <img src="./imgesofflight/lucknow-img.png">
+                    </div>
+                    <div class="flight">
+                        <h3>Mumbai<i class="fa-solid fa-plane-departure"></i> Chennai</h3>
+                        <a href="#"><h4>MAA - CHA</h4></a>
+                    </div>
+                    </div>
+                    <div class="way">
+                        <div class="place">
+                            <img src="./imgesofflight/bangalore-img.png">
+                    </div>
+                    <div class="flight">
+                        <h3>Mumbai<i class="fa-solid fa-plane-departure"></i> Dubai</h3>
+                        <a href="#"><h4>MAA - DUB</h4></a>
+                    </div>
+                    </div>
+                    <div class="way">
+                        <div class="place">
+                            <img src="./imgesofflight/chennai-img.png">
+                    </div>
+                    <div class="flight">
+                        <h3>Mumbai<i class="fa-solid fa-plane-departure"></i> Kolkata</h3>
+                        <a href="#"><h4>MAA - KOL</h4></a>
+                    </div>
+                    </div>
+                    <div class="way">
+                        <div class="place">
+                            <img src="./imgesofflight/jaipur-img.png">
+                    </div>
+                    <div class="flight">
+                        <h3>Hydrabad<i class="fa-solid fa-plane-departure"></i>Banglore</h3>
+                        <a href="#"><h4>HYD - BAN</h4></a>
+                    </div>
+                    </div>
+
+                    <div class="way">
+                        <div class="place">
+                            <img src="./imgesofflight/dubai-img (1).png">
+                    </div>
+                    <div class="flight">
+                        <h3>Mumbai<i class="fa-solid fa-plane-departure"></i> Jaypur</h3>
+                        <a href="#"><h4>MAA - JAY</h4></a>
+                    </div>
+                    </div>
+                    <div class="way" id="wayh">
+                        <div class="place">
+                            <img src="./imgesofflight/kolkata-img.png">
+                    </div>
+                    <div class="flight">
+                        <h3>Delhi<i class="fa-solid fa-plane-departure"></i> Mumbai</h3>
+                        <a href="#"><h4>DEL - MUM</h4></a>
+                    </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="important">
+            <div class="impoinfo">
+                    <div class="infoimg">
+                        <img src="./imgesofflight/important.png">
+                    </div>
+
+                    <div class="impopara">
+                        <h4>Important Info:</h4>
+            <p>To cancel/claim refund or reschedule/modify your booking.<br>
+<a href="#"> Click here..</a></p>
+                    </div>
+            </div>
+
+            <div class="impoinfo">
+                <div class="infoimg info">
+                        <img src="./imgesofflight/airline-notification.png">
+                </div>
+                <div class="impopara infop">
+                    <h4>Airline Notifications</h4>
+            <p>Get instant flight updates, notifications and travel alerts from airlines to remain informed <a href="#">
+                 Click here...</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="attraction">
+            <div class="ahead">
+                    <div class="img1">
+                        <img src="./imgesofflight/india.png">
+                    </div>
+
+                    <div class="heading">
+                            <h2>Famous Tourist Attraction</h2>
+                    </div>
+                    <div class="img2">
+                        <img src="./imgesofflight/india.png">
+                    </div>
+            </div>
+            <div class="tour">
+                    <div class="attract">
+                        <div class="imga">
+                                <img src="./imgesofflight/lakshadweep.png">
+                        </div>
+                        <div class="heada">
+                                <h3>Lakshyadeep</h3>
+                        </div>
+                    </div>
+                    <div class="attract">
+                        <div class="imga">
+                                <img src="./imgesofflight/andaman-new.png">
+                        </div>
+                        <div class="heada">
+                                <h3>Andaman</h3>
+                        </div>
+                    </div>
+                    <div class="attract">
+                        <div class="imga">
+                            <img src="./imgesofflight/kashmir.png">
+                        </div>
+                        <div class="heada">
+                            <h3>kashmir</h3>
+                        </div>
+                    </div>
+                    <div class="attract">
+                        <div class="imga">
+                            <img src="./imgesofflight/jaipur.png">
+                        </div>
+                        <div class="heada">
+                            <h3>Jaipur</h3>
+                        </div>
+                    </div>
+                    <div class="attract">
+                        <div class="imga">
+                            <img src="./imgesofflight/bangalore.png">
+                        </div>
+                        <div class="heada">
+                            <h3>Banglore</h3>
+                        </div>
+                    </div>
+                    <div class="attract">
+                        <div class="imga">
+                                <img src="./imgesofflight/paris.png">
+                        </div>
+                        <div class="heada">
+                            <h3>Paris</h3>
+                        </div>
+                    </div>
+                    <div class="attract">
+                        <div class="imga">
+                                <img src="./imgesofflight/leh.png">
+                        </div>
+                        <div class="heada">
+                            <h3>Leh</h3>
+                        </div>
+                    </div>
+                    <div class="attract">
+                        <div class="imga">
+                            <img src="./imgesofflight/bali-indonesia.png">
+                        </div>
+                        <div class="heada">
+                            <h3>Bail</h3>
+                        </div>
+                    </div>
+                    <div class="attract">
+                        <div class="imga">
+                            <img src="./imgesofflight/dubai.png">
+                        </div>
+                        <div class="heada">
+                            <h3>Dubai</h3>
+                        </div>
+                    </div>
+                    <div class="attract">
+                        <div class="imga">
+                            <img src="./imgesofflight/kerala.png">
+                        </div>
+                        <div class="heada">
+                            <h3>Kerala</h3>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="tvlog">
+            <div class="ahead">
+                <div class="img1">
+                    <img src="./imgesofflight/india.png">
+                </div>
+
+                <div class="heading">
+                        <h2>Enjoy Fresh Travel Blogs</h2>
+                </div>
+                <div class="img2">
+                    <img src="./imgesofflight/india.png">
+                </div>
+        </div>
+
+        <div class="vlog">
+            <div class="vbox vbox1">
+                <button>
+                    Holiday Destination
+                </button>
+                <h4>16 Undereted City In Europe You Should Visit</h4>
+                <h5>Click Here <i class="fa-solid fa-arrow-right"></i></h5>
+            </div>
+            <div class="vbox vbox2">
+                <button>
+                    Holiday Destination
+                </button>
+                <h4>7 Reason Why Goa Should Get Visted In Wnters</h4>
+                <h5>Click Here <i class="fa-solid fa-arrow-right"></i></h5>
+            </div>
+            <div class="vbox vbox3">
+                <button>
+                    Holiday Destination
+                </button>
+                <h4>Family-Freindly Attraction in Shanraj You Should Visit</h4>
+                <h5>Click Here <i class="fa-solid fa-arrow-right"></i></h5>
+            </div>
+
+            <div class="vbox vbox4">
+                <button>
+                    Holiday Destination
+                </button>
+                <h4>10 Must Temple In Tamil Nadu For Divine Experience</h4>
+                <h5>Click Here <i class="fa-solid fa-arrow-right"></i></h5>
+            </div>
+        </div>
+        <button id="b1v">
+            View More
+        </button>
+        </div>
+
+        <div class="book">
+            <h2>Why Booking With Us</h2>
+            <div class="box">
+                <div class="b1">
+                        <img src="./imgesofflight/easy-booking.png">
+                        <h3>Easy Booking</h3>
+                        <p>We offer easy and convenient flight bookings with attractive offers as well .</p>
+                </div>
+
+                <div class="b1">
+                    <img src="./imgesofflight/lowest-booking.png">
+                    <h3>Lowest Price</h3>
+                    <p>We ensure low rates on hotel reservation, holiday packages and on flight tickets.</p>
+                </div>
+                <div class="b1">
+                    <img src="./imgesofflight/exc-deal.png">
+                    <h3>Exciting Deals</h3>
+                    <p>Enjoy exciting deals on flights, hotels, buses, car rental and tour packages.</p>
+                </div>
+                <div class="b1">
+                    <img src="./imgesofflight/support.png">
+                    <h3>24/7 Support</h3>
+                    <p>Get assistance 24/7 on any kind of travel related query. We are happy to assist you.</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="sflight">
+            <h2>Search Flights, Hotels, Bus and Holiday Packages</h2>
+            <p>EaseMyTrip is one of the largest online travel platforms in India, and a trusted name in the Indian travel industry. We offer "end to end" travel solutions including air tickets, hotel booking, cab and bus booking, train tickets and holiday packages. Additionally, we offer ancillary value-added services.</p>
+            <p>We understand that planning a trip can be overwhelming, so we have simplified the process to make it easy for you to find the perfect travel deals that suit your needs. Our website is user-friendly and provides a wide range of options to choose from. Whether you're planning a family vacation, a solo adventure, or a business trip, we have you covered with our comprehensive travel packages. From flights to hotels, car rentals to holiday packages, we offer everything you need to make your trip a success.</p>
+            <p>We believe in transparency and honesty in all our dealings. We do not charge any hidden fees, and our prices are always competitive. With EaseMyTrip, you can be assured of getting the best travel deals in the market. If you're looking for a hassle-free and affordable way to plan your next trip, look no further than EaseMyTrip. We promise to make your travel experience a memorable one.</p>
+        </div>
+
+        <div class="footer">
+            <div class="offering">
+                <h3 id="h1">OUR OFFERINGS</h3>
+                <h3>QUICK LINKS</h3>
+                <h3>POPULAR DESTINATION</h3>
+                <h3>INTERNATIONAL DESTINATION</h3>
+                <h3>POPULAR AIRLINE</h3>
+                <h3>CONNECT WITH US</h3>
+                <h3>OFFERS</h3>
+                <h3>EMT INSIGHTS</h3>
+                <h3>MEDIA</h3>
+                <h3>Investors Relation</h3>
+                <h3>CURRENT OPENINGS</h3>
+            </div>
+            <div class="easytrip">
+                <h4>Make your travel easy with a wide range of products and services.</h4>
+                <div class="emenu">
+                    <div class="ebox">
+                        <a href="#">Flights</a>
+                        <a href="#">Bus</a>
+                        <a href="#">Airline</a>
+                        <a href="#">EMT PRO</a>
+                        <a href="#">Blog</a>
+                    </div>
+                    <div class="ebox">
+                        <a href="#">Hotels</a>
+                        <a href="#">Cab</a>
+                        <a href="#">Airport</a>
+                        <a href="#">Activities</a>
+                        <a href="#">Flight-Check-In</a>
+                    </div>
+                    <div class="ebox">
+                        <a href="#">Trains</a>
+                        <a href="#">Charters</a>
+                        <a href="#">Traval Guider</a>
+                        <a href="#">Traval Updates</a>
+                    </div>
+                    <div class="ebox">
+                        <a href="#">Holiday</a>
+                        <a href="#">Flight status</a>
+                        <a href="#">
+                            Check PNR Status</a>
+                        <a href="#">
+                            Corporate Travel</a>
+                    </div>
+                </div>
+            </div>
+            <div class="overview">
+                    <div class="oimg">
+                        <img src="./imgesofflight/EASEMYTRIP.NS_BIG.D.png">
+                        <p>EaseMyTrip offers 'End to End' travel solutions including air tickets for more than 400 international and domestic airlines, hotel bookings for nearly 1 million hotels in India and abroad, cab booking with 4000+ cab operators, bus tickets with 2000+ bus operators, and railway tickets in India for all major cities.</p>
+                    </div>
+                    <div class="oqr">
+                            <div class="downlaod">
+                                    <h4>Download EaseMyTrip App</h4>
+                                    <div class="dimg">
+                                        <a href="#"> <img src="./imgesofflight/androidft.png"></a>
+                                        <a href="#"><img src="./imgesofflight/iosnovft.png"></a>
+                                    </div>
+                            </div>
+                            <div class="qr">
+                                    <h4>
+                                        SCAN QR CODE</h4>
+                                        <img src="./imgesofflight/ftnovqrcode.png">
+                            </div>
+                    </div>
+            </div>
+        </div>
+        <div class="copy">
+            <h4>Copyright By Vaishnavi Hirulkar &copy;2025</h4>
+        </div>
+
+        <div class="bot clearfix">
+            <div class="chat">
+                <img src="./imgesofflight/ChatBotRo.svg">
+            </div>
+
+            <div class="que">
+                <h5>How Can I help You ? .... </h5>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
